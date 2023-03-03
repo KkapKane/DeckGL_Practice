@@ -16,7 +16,9 @@
     "deck.gl": "^8.8.26",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-map-gl": "^7.0.21"
+    "react-icons": "^4.7.1",
+    "react-map-gl": "^7.0.21",
+    "sass": "^1.58.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
