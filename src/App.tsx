@@ -49,7 +49,7 @@ function App() {
       extruded: true,
 
       fp64: true,
-      cellSize: 50000,
+      cellSize: 5000,
       elevationScale: 2000,
       getPosition: (d: any) => [parseFloat(d.Lon), parseFloat(d.Lat)],
       onHover: (info) => hoverHandle(info),
@@ -57,7 +57,7 @@ function App() {
   ];
 
   return (
-    <div className='App'>
+    <div className="App">
       <DeckGL
         initialViewState={INITIAL_VIEW_STATE}
         controller={true}
